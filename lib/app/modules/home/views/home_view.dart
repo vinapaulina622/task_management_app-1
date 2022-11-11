@@ -7,7 +7,6 @@ import 'package:task_management_app/app/routes/app_pages.dart';
 import 'package:task_management_app/app/utils/widget/header.dart';
 import 'package:task_management_app/app/utils/widget/sideBar.dart';
 
-
 import '../controllers/home_controller.dart';
 
 class HomeView extends GetView<HomeController> {
@@ -15,7 +14,7 @@ class HomeView extends GetView<HomeController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[100],
+        backgroundColor: Colors.blue[100],
         body: Row(
           children: [
             Expanded(
@@ -41,8 +40,6 @@ class HomeView extends GetView<HomeController> {
               ),
             ),
           ],
-        ))
-      
-    );
+        ));
   }
 }
