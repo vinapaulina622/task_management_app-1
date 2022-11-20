@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:ionicons/ionicons.dart';
 import 'package:task_management_app/app/routes/app_pages.dart';
+import 'package:task_management_app/app/utils/style/AppColors.dart';
 
 import '../controllers/login_controller.dart';
 
@@ -42,21 +43,21 @@ class LoginView extends GetView<LoginController> {
                             Text(
                               'Welcome',
                               style: TextStyle(
-                                color: Colors.white,
+                                color: AppColors.primaryText,
                                 fontSize: 50,
                               ),
                             ),
                             Text(
                               'Please Sign In',
                               style: TextStyle(
-                                color: Colors.white,
+                                color: AppColors.primaryText,
                                 fontSize: 30,
                               ),
                             ),
                             Text(
                               'Start Journey With Us',
                               style: TextStyle(
-                                color: Colors.white,
+                                color: AppColors.primaryText,
                                 fontSize: 20,
                               ),
                             ),
@@ -86,21 +87,21 @@ class LoginView extends GetView<LoginController> {
                                 Text(
                                   'Welcome',
                                   style: TextStyle(
-                                    color: Colors.white,
+                                    color: Colors.blue,
                                     fontSize: 30,
                                   ),
                                 ),
                                 Text(
                                   'Please Sign In',
                                   style: TextStyle(
-                                    color: Colors.white,
+                                    color: Colors.blue,
                                     fontSize: 20,
                                   ),
                                 ),
                                 Text(
                                   'Start Journey With Us',
                                   style: TextStyle(
-                                    color: Colors.white,
+                                    color: Colors.blue,
                                     fontSize: 15,
                                   ),
                                 ),
